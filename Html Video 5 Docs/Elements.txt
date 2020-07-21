@@ -1,0 +1,48 @@
+HTML Elements
+
+An HTML file is made of elements. These elements are 
+responsible for creating web pages and define content in
+that webpage. An element in HTML usually consist of a
+start tag <tag name>, close tag </tag name>   and content 
+inserted between them. Technically, an element is a collection
+of start tag, attributes, end tag, content between them.
+
+Ex : 
+<p> Hello world!!! </p>
+
+
+#Types of HTML Elemnts  :
+
+1) Block-level element
+
+	>These are the elements, which structure main part 
+	 of web page, by dividing a page into coherent blocks.
+	>A block-level element always start with new line and
+	 takes the full width of web page, from left to right.
+	>These elements can contain block-level as well as 
+	 inline elements.
+		 
+Ex:
+
+<address>, <article>, <aside>, <blockquote>, <canvas>, 
+<dd>, <div>, <dl>, <dt>, <fieldset>, <figcaption>, <figure>,
+ <footer>, <form>, <h1>-<h6>, <header>, <hr>, <li>, <main>, 
+ <nav>, <noscript>, <ol>, <output>, <p>, <pre>, <section>, 
+ <table>, <tfoot>, <ul> and <video>.
+ 
+ 
+2) Inline elements:
+
+	>Inline elements are those elements, which differentiate
+	 the part of a given text and provide it a particular function.
+	>These elements does not start with new line and take
+	 width as per requirement.
+	>The Inline elements are mostly used with other elements.
+	
+	EX:
+	
+	<a>, <abbr>, <acronym>, <b>, <bdo>, <big>, <br>,
+	<button>, <cite>, <code>, <dfn>, <em>, <i>,
+	<img>, <input>, <kbd>, <label>, <map>, <object>,
+	<q>, <samp>, <script>, <select>, <small>, <span>,
+	<strong>, <sub>, <sup>, <textarea>, <time>, <tt>, <var>.

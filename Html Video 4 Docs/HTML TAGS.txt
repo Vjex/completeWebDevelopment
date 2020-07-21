@@ -1,0 +1,49 @@
+HTML Tags
+
+HTML tags are like keywords which defines that 
+how web browser will format and display the content. 
+With the help of tags, a web browser can distinguish
+between an HTML content and a simple content. HTML tags 
+contain three main parts: opening tag, content and closing tag.
+But some HTML tags are unclosed/unpaired tags.
+
+ > All HTML tags must enclosed within < > these brackets.
+ > Every tag in HTML perform different tasks.
+ > If you have used an open tag <tag>, then 
+   you must use a close tag </tag> (except some tags)
+
+Syntax
+
+<tag> content </tag>
+
+
+ #TYPES Of TAG : 
+ 
+ 1) Paired/Closed Tags 
+ 
+	HTML tags ,Which are  closed , For Eg : 
+		<html> HTML Tag </html> , 
+		<head> Head Tag </head> , 
+		<body> Body Tag </body>, 
+		<b> Bold Tag </b>,	
+		<i> Italic Tag </i>,
+		<u> Underline Tag</u>
+	
+		
+		
+ 2) Unpaired/UnClosed Or Self-Closing Tags	
+	
+	HTML tags are not closed, for example :
+	
+	<area /> – clickable area inside an image map. , 
+	<base /> – new root or base path for relitive paths. ,  
+	<br /> – single line break in a paragraph. , 
+	<embed /> – embeds things like flash. ,
+	<hr /> – change in type of content. , 
+	<iframe /> – frame inside the page. ,
+	<img /> –  to add a image , 
+	<doctype> - defines document type and version of html.
+	
+
+	
+	

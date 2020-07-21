@@ -1,0 +1,102 @@
+HTML Attribute
+
+ > HTML attributes are special words which provide 
+   additional information about the elements or
+   attributes are the modifier of the HTML element.
+ > Each element or tag can have attributes, 
+   which defines the behaviour of that element.
+ > Attributes should always be applied with start tag.
+ > The Attribute should always be applied with its 
+   name and value pair.
+ > You can add multiple attributes in one HTML element,
+   but need to give space between two attributes.
+   
+
+Syntax
+
+<tag attribute_name="value">content</tag>  
+
+
+#Types of Attribute  : 
+
+ 1) Global Attributes 
+ 
+	HTML global attributes are those attributes which are 
+	common for all HTML elements.
+	
+	The global attributes can be used with all elements,
+	although it may not have any effect on some elements.
+
+	Following is the complete list of global attributes with 
+	their description:
+	
+	
+Attributes			value		Description
+
+1)style			style			It is used to apply inline CSS to the 
+								current element.
+								
+2)class				classname	It is used to provide the class name
+								for the current element. 
+								It is mainly used with the stylesheet.
+								
+3)id				id			It specifies a unique id for the element.
+								It can be used with CSS and JavaScript.
+					
+4)contextmenu		menu_id		It defines the id for the <menu>
+								element which is used as a context 
+								menu (a menu appear on right click)
+								for an element.
+								
+5)data-* -	(5)		somevalue	It is used to store element-specific 
+								private data which can be accessed by 
+								Javascript.
+								
+6)dir				rtl			It specifies the direction of the content 
+					ltr			inside the current element.
+					auto		 
+					
+7)draggable	(5)		true		It specifies whether the content within an
+					false		element is movable or not using Drag 
+					auto		and Drop API.
+					
+8)dropzon (5)		copy		It specifies the action is taken on the 
+					move		dragged element when it is dropped, 
+					link		such as whether it is copied, moved or linked.
+					
+9)hidden (5)					It is used to hide the element from view.
+
+10)Contenteditable (5)	true	It determines whether the content within 
+					false		an element is editable or not.
+								
+11)lang			 language_code	It specifies the primary language for the
+								content of an element.
+								
+12)accesskey		character	It is used to generate keyboard 
+								shortcuts for the current element.
+								
+13)spellcheck (5)	true		It specifies whether the content should
+					false		be checked for spelling errors or not.
+					
+14)tabindex			number		It determines the tabbing order of 
+								an element.
+								
+15)title			text		It is used to provide the title,
+								name, or some extra information 
+								about the element.	
+	
+16)translate (5) 	yes			It specifies whether the content of the
+					no			element should be translated when the
+								page is localized or not.	
+	
+	
+2) Event Attributes
+	
+
+Windows Event Attributes
+Form Event Attributes
+Keyboard Event Attributes
+Mouse Event Attributes
+Clipboard Event Attributes
+Media Event Attributes
+	

@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Draggable Attribute</title>
+		
+		<script>
+		function allowDrop(ev) {
+		  ev.preventDefault();
+		}
+
+		function drag(ev) {
+		  ev.dataTransfer.setData("Text", ev.target.id);
+		}
+
+		function drop(ev) {
+		  var data = ev.dataTransfer.getData("Text");
+		  ev.target.appendChild(document.getElementById(data));
+		  ev.preventDefault();
+		}
+		</script>
+	</head>
+	<body>
+
+	<div id="div1" style = " width: 750px; height: 70px; padding: 10px;
+		border: 1px solid #FF5733;" 
+		ondrop="drop(event)" 
+		ondragover="allowDrop(event)"></div>
+		
+	<br>
+	<p id="drag1" draggable="true" ondragstart="drag(event)">Mujhe
+	 Drag Kr Ke Box Me daal do.</p>
+
+	</body>
+</html>
